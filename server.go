@@ -37,7 +37,7 @@ func main() {
     return c.JSON(avg)
     })
 
-    log.Fatal(app.Listen(":3000"))
+    log.Fatal(app.Listen(":5000"))
 }
 
 
